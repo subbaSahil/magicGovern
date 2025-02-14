@@ -30,7 +30,7 @@ public class BaseTest {
 	public void setup() {
 		
 		loadProperties(); // Load properties before setting up the driver
-		this.driver = new EdgeDriver();
+		this.driver = new ChromeDriver();
 		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		this.driver.get(properties.getProperty("URL"));
 		this.driver.manage().window().maximize();
