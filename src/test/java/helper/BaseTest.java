@@ -1,3 +1,4 @@
+
 package helper;
 
 import java.io.FileInputStream;
@@ -6,7 +7,7 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 
@@ -30,7 +31,7 @@ public class BaseTest {
 	public void setup() {
 		
 		loadProperties(); // Load properties before setting up the driver
-		this.driver = new EdgeDriver();
+		this.driver = new ChromeDriver();
 		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		this.driver.get(properties.getProperty("URL"));
 		this.driver.manage().window().maximize();
