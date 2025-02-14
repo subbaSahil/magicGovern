@@ -1,63 +1,63 @@
-//package test;
-//
-//import org.testng.Assert;
-//import org.testng.annotations.AfterMethod;
-//import org.testng.annotations.BeforeMethod;
-//import org.testng.annotations.Test;
-//
-//import helper.BaseTest;
-//import pages.CaseStudiesTab;
-//
-//public class CaseStudiesTab_Test extends BaseTest {
-//	private CaseStudiesTab caseStudiesTab;
-//
-//	@BeforeMethod
-//	public void setUp() {
-//		caseStudiesTab = new CaseStudiesTab(driver);
-//
-//	}
-//
-//	@AfterMethod
-//	public void afterMethod() throws InterruptedException {
-//		Thread.sleep(2000);
-//		driver.quit();
-//	}
-//
-//	@Test(priority = 1)
-//
-//	public void caseStudiesText_Tab_TC_01() {
-//		caseStudiesTab.caseStudies_tab();
-//		String actualText = caseStudiesTab.caseStudies_tab_text();
-//		System.out.println(actualText);
-//		String expectedText = "Case studies"; // Replace with your expected text
-//		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
-//	}
-//
-//	@Test(priority = 2)
-//
-//	public void caseStudies_Tab_TC_02() {
-//		caseStudiesTab.caseStudies_tab();
-//	}
-//
-//	@Test(priority = 3)
-//
-//	public void featuredCaseText_TC_03() {
-//		caseStudiesTab.caseStudies_tab();
-//		String actualText = caseStudiesTab.featureText();
-//		System.out.println(actualText);
-//		String expectedText = "Featured case studies"; // Replace with your expected text
-//		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
-//
-//	}
-//
-//	@Test(priority = 4)
-//
-//	public void Major_Insurance_TC_04() {
-//		caseStudiesTab.caseStudies_tab();
-//		caseStudiesTab.majorInsurance();
-//
-//	}
-//
+package test;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import helper.BaseTest;
+import pages.CaseStudiesTab;
+
+public class CaseStudiesTab_Test extends BaseTest {
+	private CaseStudiesTab caseStudiesTab;
+
+	@BeforeMethod
+	public void setUp() {
+		caseStudiesTab = new CaseStudiesTab(driver);
+
+	}
+
+	@AfterMethod
+	public void afterMethod() throws InterruptedException {
+		Thread.sleep(2000);
+		driver.quit();
+	}
+
+	@Test(priority = 1)
+
+	public void caseStudiesText_Tab_TC_01() {
+		caseStudiesTab.caseStudies_tab();
+		String actualText = caseStudiesTab.caseStudies_tab_text();
+		System.out.println(actualText);
+		String expectedText = "Case studies"; // Replace with your expected text
+		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
+	}
+
+	@Test(priority = 2)
+
+	public void caseStudies_Tab_TC_02() {
+		caseStudiesTab.caseStudies_tab();
+	}
+
+	@Test(priority = 3)
+
+	public void featuredCaseText_TC_03() {
+		caseStudiesTab.caseStudies_tab();
+		String actualText = caseStudiesTab.featureText();
+		System.out.println(actualText);
+		String expectedText = "Featured case studies"; // Replace with your expected text
+		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
+
+	}
+
+	@Test(priority = 4)
+
+	public void Major_Insurance_TC_04() {
+		caseStudiesTab.caseStudies_tab();
+		caseStudiesTab.majorInsurance();
+
+	}
+
 //	@Test(priority = 5)
 //
 //	public void Major_Insurance_TC_05() {
@@ -121,5 +121,5 @@
 //		caseStudiesTab.building();
 //
 //	}
-//
-//}
+
+}

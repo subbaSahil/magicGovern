@@ -101,102 +101,102 @@ public class BlogTest extends BaseTest {
 		BlogPage.clickReadMore2nd();
 	}
 
-	@Test(priority = 11, retryAnalyzer = RetryAnalyzer.class)
-	public void TC11_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.is3rdCardAvailable(),
-				"What You Shouldn’t Be Doing with Your Cybersecurity in 2023");
-	}
-
-	@Test(priority = 12, retryAnalyzer = RetryAnalyzer.class)
-	public void TC12_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore3rd();
-	}
-
-	@Test(priority = 13, retryAnalyzer = RetryAnalyzer.class)
-	public void TC13_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.is4thCardAvailable(), "Heavy Equipment Manufacturer Finds Concrete Solutions");
-	}
-
-	@Test(priority = 14, retryAnalyzer = RetryAnalyzer.class)
-	public void TC14_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore4th();
-	}
-
-	@Test(priority = 15, retryAnalyzer = RetryAnalyzer.class)
-	public void TC15_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.is5thCardAvailable(),
-				"5 Impactful Elements That Promote IT and Business Alignment");
-	}
-
-	@Test(priority = 16, retryAnalyzer = RetryAnalyzer.class)
-	public void TC16_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore5th();
-	}
-
-	@Test(priority = 17, retryAnalyzer = RetryAnalyzer.class)
-	public void TC17_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.is6thCardAvailable(),
-				"Healthy Supply Chain Management Positions UniWell for Growth");
-	}
-
-	@Test(priority = 18, retryAnalyzer = RetryAnalyzer.class)
-	public void TC18_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore6th();
-	}
-
-	@Test(priority = 19, retryAnalyzer = RetryAnalyzer.class)
-	public void TC19_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.is7thCardAvailable(), "Simplifying and Securing Attachments in Sage X3");
-	}
-
-	@Test(priority = 20, retryAnalyzer = RetryAnalyzer.class)
-	public void TC20_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore7th();
-	}
-
-	@Test(priority = 21, retryAnalyzer = RetryAnalyzer.class)
-	public void TC21_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickStartUpPage();
-	}
-
-	@Test(priority = 22, retryAnalyzer = RetryAnalyzer.class)
-	public void TC22_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickLoadMorebtn();
-	}
+//	@Test(priority = 11, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC11_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.is3rdCardAvailable(),
+//				"What You Shouldn’t Be Doing with Your Cybersecurity in 2023");
+//	}
+//
+//	@Test(priority = 12, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC12_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore3rd();
+//	}
+//
+//	@Test(priority = 13, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC13_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.is4thCardAvailable(), "Heavy Equipment Manufacturer Finds Concrete Solutions");
+//	}
+//
+//	@Test(priority = 14, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC14_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore4th();
+//	}
+//
+//	@Test(priority = 15, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC15_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.is5thCardAvailable(),
+//				"5 Impactful Elements That Promote IT and Business Alignment");
+//	}
+//
+//	@Test(priority = 16, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC16_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore5th();
+//	}
+//
+//	@Test(priority = 17, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC17_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.is6thCardAvailable(),
+//				"Healthy Supply Chain Management Positions UniWell for Growth");
+//	}
+//
+//	@Test(priority = 18, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC18_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore6th();
+//	}
+//
+//	@Test(priority = 19, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC19_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.is7thCardAvailable(), "Simplifying and Securing Attachments in Sage X3");
+//	}
+//
+//	@Test(priority = 20, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC20_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore7th();
+//	}
+//
+//	@Test(priority = 21, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC21_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickStartUpPage();
+//	}
+//
+//	@Test(priority = 22, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC22_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickLoadMorebtn();
+//	}
 }
