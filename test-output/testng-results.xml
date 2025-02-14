@@ -1,199 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T16:29:04 IST" name="Suite" finished-at="2025-02-14T16:32:34 IST" duration-ms="209402">
+  <suite started-at="2025-02-14T16:43:51 IST" name="Default suite" finished-at="2025-02-14T16:45:14 IST" duration-ms="83152">
     <groups>
     </groups>
-    <test started-at="2025-02-14T16:29:04 IST" name="Test" finished-at="2025-02-14T16:32:34 IST" duration-ms="209402">
-      <class name="test.BlogTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:04 IST" name="setup" finished-at="2025-02-14T16:29:12 IST" duration-ms="7110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC01_Blog_Tab()[pri:1, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:12 IST" name="TC01_Blog_Tab" finished-at="2025-02-14T16:29:12 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:12 IST" name="afterMethod" finished-at="2025-02-14T16:29:16 IST" duration-ms="4221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:16 IST" name="setup" finished-at="2025-02-14T16:29:22 IST" duration-ms="5866" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC02_Blog_Tab()[pri:2, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:22 IST" name="TC02_Blog_Tab" finished-at="2025-02-14T16:29:24 IST" duration-ms="2725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:24 IST" name="afterMethod" finished-at="2025-02-14T16:29:29 IST" duration-ms="4297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:29 IST" name="setup" finished-at="2025-02-14T16:29:35 IST" duration-ms="6161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC03_Blog_Tab()[pri:3, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:35 IST" name="TC03_Blog_Tab" finished-at="2025-02-14T16:29:38 IST" duration-ms="2980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:38 IST" name="afterMethod" finished-at="2025-02-14T16:29:42 IST" duration-ms="4298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:42 IST" name="setup" finished-at="2025-02-14T16:29:48 IST" duration-ms="6190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC04_Blog_Tab()[pri:4, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:48 IST" name="TC04_Blog_Tab" finished-at="2025-02-14T16:29:52 IST" duration-ms="3746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:52 IST" name="afterMethod" finished-at="2025-02-14T16:29:56 IST" duration-ms="4310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:29:56 IST" name="setup" finished-at="2025-02-14T16:30:03 IST" duration-ms="6111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC05_Blog_Tab()[pri:5, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:03 IST" name="TC05_Blog_Tab" finished-at="2025-02-14T16:30:09 IST" duration-ms="6621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC05_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:09 IST" name="afterMethod" finished-at="2025-02-14T16:30:14 IST" duration-ms="4345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:14 IST" name="setup" finished-at="2025-02-14T16:30:20 IST" duration-ms="6101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC06_Blog_Tab()[pri:6, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:20 IST" name="TC06_Blog_Tab" finished-at="2025-02-14T16:30:26 IST" duration-ms="6844" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC06_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:26 IST" name="afterMethod" finished-at="2025-02-14T16:30:31 IST" duration-ms="4385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:31 IST" name="setup" finished-at="2025-02-14T16:30:37 IST" duration-ms="6082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC07_Blog_Tab()[pri:7, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:37 IST" name="TC07_Blog_Tab" finished-at="2025-02-14T16:30:40 IST" duration-ms="2913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC07_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:40 IST" name="afterMethod" finished-at="2025-02-14T16:30:44 IST" duration-ms="4241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:44 IST" name="setup" finished-at="2025-02-14T16:30:50 IST" duration-ms="6125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC08_Blog_Tab()[pri:8, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:50 IST" name="TC08_Blog_Tab" finished-at="2025-02-14T16:30:57 IST" duration-ms="6721" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC08_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:30:57 IST" name="afterMethod" finished-at="2025-02-14T16:31:01 IST" duration-ms="4381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:31:01 IST" name="setup" finished-at="2025-02-14T16:31:07 IST" duration-ms="6155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC09_Blog_Tab()[pri:9, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:31:07 IST" name="TC09_Blog_Tab" finished-at="2025-02-14T16:31:10 IST" duration-ms="2782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC09_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:31:10 IST" name="afterMethod" finished-at="2025-02-14T16:31:15 IST" duration-ms="4300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:31:15 IST" name="setup" finished-at="2025-02-14T16:31:21 IST" duration-ms="6589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC010_Blog_Tab()[pri:10, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:31:21 IST" name="TC010_Blog_Tab" finished-at="2025-02-14T16:31:28 IST" duration-ms="7004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC010_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@663c9e7a]" started-at="2025-02-14T16:31:28 IST" name="afterMethod" finished-at="2025-02-14T16:31:32 IST" duration-ms="4085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- test.BlogTest -->
+    <test started-at="2025-02-14T16:43:51 IST" name="Default test" finished-at="2025-02-14T16:45:14 IST" duration-ms="83152">
       <class name="test.CaseStudiesTab_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:32 IST" name="setup" finished-at="2025-02-14T16:31:39 IST" duration-ms="6310" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:43:51 IST" name="setup" finished-at="2025-02-14T16:44:08 IST" duration-ms="17393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:39 IST" name="setUp" finished-at="2025-02-14T16:31:39 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:08 IST" name="setUp" finished-at="2025-02-14T16:44:08 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="caseStudiesText_Tab_TC_01()[pri:1, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:39 IST" name="caseStudiesText_Tab_TC_01" finished-at="2025-02-14T16:31:44 IST" duration-ms="5398" status="PASS">
+        <test-method signature="caseStudiesText_Tab_TC_01()[pri:1, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:08 IST" name="caseStudiesText_Tab_TC_01" finished-at="2025-02-14T16:44:12 IST" duration-ms="3919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- caseStudiesText_Tab_TC_01 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:44 IST" name="afterMethod" finished-at="2025-02-14T16:31:48 IST" duration-ms="4437" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:12 IST" name="afterMethod" finished-at="2025-02-14T16:44:15 IST" duration-ms="3095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:48 IST" name="setup" finished-at="2025-02-14T16:31:54 IST" duration-ms="5975" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:15 IST" name="setup" finished-at="2025-02-14T16:44:21 IST" duration-ms="5992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:54 IST" name="setUp" finished-at="2025-02-14T16:31:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:21 IST" name="setUp" finished-at="2025-02-14T16:44:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="caseStudies_Tab_TC_02()[pri:2, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:54 IST" name="caseStudies_Tab_TC_02" finished-at="2025-02-14T16:31:57 IST" duration-ms="2782" status="PASS">
+        <test-method signature="caseStudies_Tab_TC_02()[pri:2, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:21 IST" name="caseStudies_Tab_TC_02" finished-at="2025-02-14T16:44:24 IST" duration-ms="2616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- caseStudies_Tab_TC_02 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:31:57 IST" name="afterMethod" finished-at="2025-02-14T16:32:02 IST" duration-ms="4338" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:24 IST" name="afterMethod" finished-at="2025-02-14T16:44:27 IST" duration-ms="2778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:02 IST" name="setup" finished-at="2025-02-14T16:32:07 IST" duration-ms="5844" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:27 IST" name="setup" finished-at="2025-02-14T16:44:34 IST" duration-ms="6682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:07 IST" name="setUp" finished-at="2025-02-14T16:32:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:34 IST" name="setUp" finished-at="2025-02-14T16:44:34 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="featuredCaseText_TC_03()[pri:3, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:07 IST" name="featuredCaseText_TC_03" finished-at="2025-02-14T16:32:11 IST" duration-ms="3424" status="PASS">
+        <test-method signature="featuredCaseText_TC_03()[pri:3, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:34 IST" name="featuredCaseText_TC_03" finished-at="2025-02-14T16:44:57 IST" duration-ms="23006" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Text does not match the expected value! expected [Featured case studies] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Text does not match the expected value! expected [Featured case studies] but found [null]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at test.CaseStudiesTab_Test.featuredCaseText_TC_03(CaseStudiesTab_Test.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- featuredCaseText_TC_03 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:11 IST" name="afterMethod" finished-at="2025-02-14T16:32:15 IST" duration-ms="4451" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:57 IST" name="afterMethod" finished-at="2025-02-14T16:44:59 IST" duration-ms="2811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:15 IST" name="setup" finished-at="2025-02-14T16:32:21 IST" duration-ms="6007" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:44:59 IST" name="setup" finished-at="2025-02-14T16:45:06 IST" duration-ms="6356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:21 IST" name="setUp" finished-at="2025-02-14T16:32:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Major_Insurance_TC_04()[pri:4, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:21 IST" name="Major_Insurance_TC_04" finished-at="2025-02-14T16:32:29 IST" duration-ms="8190" status="PASS">
+        <test-method signature="Major_Insurance_TC_04()[pri:4, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:45:06 IST" name="Major_Insurance_TC_04" finished-at="2025-02-14T16:45:11 IST" duration-ms="5461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Major_Insurance_TC_04 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@451001e5]" started-at="2025-02-14T16:32:29 IST" name="afterMethod" finished-at="2025-02-14T16:32:34 IST" duration-ms="4272" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:45:06 IST" name="setUp" finished-at="2025-02-14T16:45:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.CaseStudiesTab_Test@3b0fe47a]" started-at="2025-02-14T16:45:11 IST" name="afterMethod" finished-at="2025-02-14T16:45:14 IST" duration-ms="2937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- test.CaseStudiesTab_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
