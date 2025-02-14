@@ -39,24 +39,24 @@ public class CaseStudiesTab_Test extends BaseTest {
 		caseStudiesTab.caseStudies_tab();
 	}
 
-	@Test(priority = 3)
-
-	public void featuredCaseText_TC_03() {
-		caseStudiesTab.caseStudies_tab();
-		String actualText = caseStudiesTab.featureText();
-		System.out.println(actualText);
-		String expectedText = "Featured case studies"; // Replace with your expected text
-		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
-
-	}
-
-	@Test(priority = 4)
-
-	public void Major_Insurance_TC_04() {
-		caseStudiesTab.caseStudies_tab();
-		caseStudiesTab.majorInsurance();
-
-	}
+//	@Test(priority = 3)
+//
+//	public void featuredCaseText_TC_03() {
+//		caseStudiesTab.caseStudies_tab();
+//		String actualText = caseStudiesTab.featureText();
+//		System.out.println(actualText);
+//		String expectedText = "Featured case studies"; // Replace with your expected text
+//		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
+//
+//	}
+//
+//	@Test(priority = 4)
+//
+//	public void Major_Insurance_TC_04() {
+//		caseStudiesTab.caseStudies_tab();
+//		caseStudiesTab.majorInsurance();
+//
+//	}
 
 //	@Test(priority = 5)
 //

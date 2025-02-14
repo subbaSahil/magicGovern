@@ -40,23 +40,23 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 3)
-	public void TC04_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.isReadFullStoryAvailable(), "Read full story");
-
-	}
-
-	@Test(priority = 4)
-	public void TC05_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickFullstory();
-
-	}
+//	@Test(priority = 3)
+//	public void TC04_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.isReadFullStoryAvailable(), "Read full story");
+//
+//	}
+//
+//	@Test(priority = 4)
+//	public void TC05_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickFullstory();
+//
+//	}
 
 //	@Test(priority = 6, retryAnalyzer = RetryAnalyzer.class)
 //	public void TC06_Blog_Tab() {

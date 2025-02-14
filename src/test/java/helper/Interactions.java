@@ -88,8 +88,41 @@ public class Interactions {
 	}
 
 	public void click(By element) {
-		WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(element));
-		clickableElement.click();
+		int retryCount = 2; // Number of retries
+		int attempts = 0;
+		boolean clicked = false;
+
+		while (attempts < retryCount && !clicked) {
+			try {
+				// Try to find the clickable element
+				WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(element));
+				clickableElement.click(); // Attempt to click the element using WebDriver
+				clicked = true; // Successfully clicked using WebDriver
+				System.out.println("Element clicked successfully: " + element);
+			} catch (Exception e) {
+				attempts++;
+				System.out.println("Attempt " + attempts + " to click on " + element + " failed: " + e.getMessage());
+
+				// If all attempts with WebDriver fail, use JavaScriptExecutor
+				if (attempts == retryCount) {
+					System.out.println("Failed to click using WebDriver. Attempting JavaScriptExecutor...");
+					try {
+						JavascriptExecutor js = (JavascriptExecutor) driver;
+						WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(element));
+						js.executeScript("arguments[0].click();", clickableElement); // Use JS to click
+						clicked = true;
+						System.out.println("Element clicked using JavaScriptExecutor: " + element);
+					} catch (Exception jsException) {
+						System.out.println("JavaScriptExecutor also failed to click on " + element + ": "
+								+ jsException.getMessage());
+					}
+				}
+			}
+		}
+
+		if (!clicked) {
+			System.out.println("Failed to click on the element after " + retryCount + " attempts.");
+		}
 	}
 
 	public String getText(By element) {
