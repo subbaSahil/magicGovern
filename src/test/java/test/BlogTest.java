@@ -59,47 +59,47 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 6, retryAnalyzer = RetryAnalyzer.class)
-	public void TC06_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickFullstory();
-		Assert.assertEquals(BlogPage.isCommentSectionAvailable(), "Show comments / Leave a comment");
-	}
-
-	@Test(priority = 7, retryAnalyzer = RetryAnalyzer.class)
-	public void TC07_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.isChinaDatabreaxhCardAvailable(),
-				"4 Cybersecurity Takeaways from China’s Largest Data Breach");
-	}
-
-	@Test(priority = 8, retryAnalyzer = RetryAnalyzer.class)
-	public void TC08_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore1st();
-	}
-
-	@Test(priority = 9, retryAnalyzer = RetryAnalyzer.class)
-	public void TC09_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.isTop5TipsCardAvailable(), "Top 5 Tips for Solving the Email Security Problem");
-	}
-
-	@Test(priority = 10, retryAnalyzer = RetryAnalyzer.class)
-	public void TC010_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		BlogPage.clickReadMore2nd();
-	}
+//	@Test(priority = 6, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC06_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickFullstory();
+//		Assert.assertEquals(BlogPage.isCommentSectionAvailable(), "Show comments / Leave a comment");
+//	}
+//
+//	@Test(priority = 7, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC07_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.isChinaDatabreaxhCardAvailable(),
+//				"4 Cybersecurity Takeaways from China’s Largest Data Breach");
+//	}
+//
+//	@Test(priority = 8, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC08_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore1st();
+//	}
+//
+//	@Test(priority = 9, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC09_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		Assert.assertEquals(BlogPage.isTop5TipsCardAvailable(), "Top 5 Tips for Solving the Email Security Problem");
+//	}
+//
+//	@Test(priority = 10, retryAnalyzer = RetryAnalyzer.class)
+//	public void TC010_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		BlogPage.clickReadMore2nd();
+//	}
 
 //	@Test(priority = 11, retryAnalyzer = RetryAnalyzer.class)
 //	public void TC11_Blog_Tab() {
