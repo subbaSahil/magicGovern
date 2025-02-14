@@ -15,15 +15,15 @@ public class BlogTest extends BaseTest {
 		driver.quit();
 	}
 
+//	@Test(priority = 1)
+//	public void TC01_Blog_Tab() throws InterruptedException {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		Assert.assertEquals(BlogPage.isBlogTabAvailble(), "Blog");
+//
+//	}
+
 	@Test(priority = 1)
-	public void TC01_Blog_Tab() throws InterruptedException {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		Assert.assertEquals(BlogPage.isBlogTabAvailble(), "Blog");
-
-	}
-
-	@Test(priority = 2)
 	public void TC02_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
@@ -31,7 +31,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void TC03_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
@@ -40,7 +40,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 3)
 	public void TC04_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
@@ -49,7 +49,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 4)
 	public void TC05_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
