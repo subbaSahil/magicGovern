@@ -24,7 +24,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 2, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 2)
 	public void TC02_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
@@ -32,7 +32,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 3, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 3)
 	public void TC03_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
@@ -41,7 +41,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 4, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 4)
 	public void TC04_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
@@ -50,7 +50,7 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 5, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 5)
 	public void TC05_Blog_Tab() {
 
 		BlogPage BlogPage = new BlogPage(driver);
