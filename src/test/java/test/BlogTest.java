@@ -5,7 +5,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import helper.BaseTest;
-import helper.RetryAnalyzer;
 import pages.BlogPage;
 
 public class BlogTest extends BaseTest {
