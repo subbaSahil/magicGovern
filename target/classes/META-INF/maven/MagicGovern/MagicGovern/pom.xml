@@ -18,12 +18,13 @@
 	</properties>
 
 	<dependencies>
-		<!-- Selenium WebDriver -->
+		<!-- Selenium WebDriver--> 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.23.0</version>
 		</dependency>
+
 
 		<!-- SLF4J Simple Logging -->
 		<dependency>
@@ -32,12 +33,14 @@
 			<version>1.7.32</version>
 		</dependency>
 
+
 		<!-- dotenv for environment variables -->
 		<dependency>
 			<groupId>io.github.cdimascio</groupId>
 			<artifactId>dotenv-java</artifactId>
 			<version>3.0.0</version>
 		</dependency>
+
 
 		<!-- TestNG -->
 		<dependency>

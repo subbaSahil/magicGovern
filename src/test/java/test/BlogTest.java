@@ -31,6 +31,16 @@ public class BlogTest extends BaseTest {
 
 	}
 
+	@Test(priority = 2)
+	public void test1() {
+		System.out.println("test1");
+	}
+
+	@Test(priority = 3)
+	public void Test2() {
+		System.out.println("test2");
+	}
+
 //	@Test(priority = 2)
 //	public void TC03_Blog_Tab() {
 //
