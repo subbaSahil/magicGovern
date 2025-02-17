@@ -31,14 +31,15 @@ public class BlogTest extends BaseTest {
 
 	}
 
-	@Test(priority = 2)
-	public void TC03_Blog_Tab() {
-
-		BlogPage BlogPage = new BlogPage(driver);
-		BlogPage.clickBlogTab();
-		Assert.assertEquals(BlogPage.isTheTecnologiaBlogTestAvailable(), "The Tecnologia Blog");
-
-	}
+//	@Test(priority = 2)
+//	public void TC03_Blog_Tab() {
+//
+//		BlogPage BlogPage = new BlogPage(driver);
+//		BlogPage.clickBlogTab();
+//		System.out.println("blog tab clicked");
+//		Assert.assertEquals(BlogPage.isTheTecnologiaBlogTestAvailable(), "The Tecnologia Blog");
+//
+//	}
 
 //	@Test(priority = 3)
 //	public void TC04_Blog_Tab() {

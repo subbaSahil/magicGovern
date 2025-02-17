@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-17T13:30:29 IST" name="Default suite" finished-at="2025-02-17T13:30:42 IST" duration-ms="12789">
+  <suite started-at="2025-02-17T15:40:14 IST" name="Default suite" finished-at="2025-02-17T15:40:49 IST" duration-ms="34843">
     <groups>
     </groups>
-    <test started-at="2025-02-17T13:30:29 IST" name="Default test" finished-at="2025-02-17T13:30:42 IST" duration-ms="12789">
+    <test started-at="2025-02-17T15:40:14 IST" name="Default test" finished-at="2025-02-17T15:40:49 IST" duration-ms="34843">
       <class name="test.BlogTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@15043a2f]" started-at="2025-02-17T13:30:29 IST" name="setup" finished-at="2025-02-17T13:30:36 IST" duration-ms="6853" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@15043a2f]" started-at="2025-02-17T15:40:14 IST" name="setup" finished-at="2025-02-17T15:40:43 IST" duration-ms="28612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC03_Blog_Tab()[pri:2, instance:test.BlogTest@15043a2f]" started-at="2025-02-17T13:30:36 IST" name="TC03_Blog_Tab" finished-at="2025-02-17T13:30:39 IST" duration-ms="2992" status="PASS">
+        <test-method signature="TC03_Blog_Tab()[pri:2, instance:test.BlogTest@15043a2f]" started-at="2025-02-17T15:40:43 IST" name="TC03_Blog_Tab" finished-at="2025-02-17T15:40:47 IST" duration-ms="3466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@15043a2f]" started-at="2025-02-17T13:30:39 IST" name="afterMethod" finished-at="2025-02-17T13:30:42 IST" duration-ms="2866" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@15043a2f]" started-at="2025-02-17T15:40:47 IST" name="afterMethod" finished-at="2025-02-17T15:40:49 IST" duration-ms="2715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
