@@ -16,7 +16,7 @@ public class BlogPage {
 	}
 
 	public void clickBlogTab() {
-		this.interaction.clickElement(bloglocators.blogSection);
+		this.interaction.click(bloglocators.blogSection);
 	}
 
 	public String isBlogTabAvailble() {

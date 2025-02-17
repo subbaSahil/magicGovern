@@ -4,14 +4,12 @@ import org.openqa.selenium.By;
 
 public class BlogLocators {
 
-	public By blogSection = By.xpath(
-			"/html//div[@class='elementor elementor-171 elementor-location-header']/section[1]/div/div[2]/div/div/div/nav[1]/ul[@class='elementor-nav-menu']/li[5]");
+	public By blogSection = By.xpath("//ul[@id='menu-1-4677853']//child::a[text()='Blog']");
 	public By blogInnerText = By.xpath(
 			"/html//div[@class='elementor elementor-171 elementor-location-header']/section[1]/div/div[2]/div/div/div/nav[1]/ul[@class='elementor-nav-menu']//a[@href='https://www.magicgovern.ai/blog/']");
 	public By blogText = By.xpath("//ul[@id='menu-1-4677853']//child::a[text()='Blog']");
 
-	public By TheTechnologiaBlogText = By.xpath(
-			"/html//div[@id='main']/article/div/section[2]//div[@class='elementor-element elementor-element-23ed50d elementor-widget elementor-widget-theme-post-content']//div[@class='elementor elementor-93']/section[1]/div/div/div/div[1]//h1[@class='elementor-heading-title elementor-size-default']");
+	public By TheTechnologiaBlogText = By.xpath("//h1[text()='The Tecnologia Blog']");
 	public By ReadFullStoryText = By.xpath(
 			"/html//div[@id='main']/article/div/section[2]//div[@class='elementor-element elementor-element-23ed50d elementor-widget elementor-widget-theme-post-content']//div[@class='elementor elementor-93']/section[2]/div/div/div/div[2]//article/div/a[@href='https://www.magicgovern.ai/how-startups-are-cutting-cloud-costs-renegotiating-deals-with-service-providers/']");
 	public By CommentSection = By.cssSelector("div[role='button'] > .elementor-toggle-title");
