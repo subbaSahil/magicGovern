@@ -9,6 +9,7 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 
@@ -44,10 +45,16 @@ public class BaseTest {
 	 @BeforeMethod
 	    public void setup() {
 	        loadProperties(); // Load properties before setting up the driver
+	        
+	        
+	        EdgeOptions options = new EdgeOptions();
+	        
+	        // Add necessary arguments to handle the issue in CI environment
+	        options.addArguments("--disable-dev-shm-usage", "--remote-allow-origins=*");
 
 	        // Set up EdgeDriver
 	        System.setProperty("webdriver.edge.driver", "C:\\Users\\MonalishaRabha\\eclipse\\edgedriver_win64\\msedgedriver.exe");
-	        driver = new EdgeDriver();
+	        driver = new EdgeDriver(options);
 
 	        // Configure browser
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
