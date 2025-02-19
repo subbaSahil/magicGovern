@@ -20,8 +20,7 @@ public class BlogTest extends BaseTest {
 
 		BlogPage BlogPage = new BlogPage(driver);
 		BlogPage.clickBlogTab();
-//		Assert.assertEquals(BlogPage.isBlogTabAvailble(), "Blog");/
-
+//		Assert.assertEquals(BlogPage.isBlogTabAvailble(), "Blog");
 	}
 
 	@Test(priority = 2)
@@ -112,7 +111,7 @@ public class BlogTest extends BaseTest {
 //		Assert.assertEquals(BlogPage.is3rdCardAvailable(),
 //				"What You Shouldn’t Be Doing with Your Cybersecurity in 2023");
 //	}
-//
+
 //	@Test(priority = 11)
 //	public void TC12_Blog_Tab() {
 //

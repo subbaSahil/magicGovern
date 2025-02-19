@@ -38,8 +38,7 @@ public class BaseTest {
 //		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //		this.driver.get(properties.getProperty("URL"));
 //		this.driver.manage().window().maximize();
-//		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-//		
+//		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));	
 //	}
 	
 	 @BeforeMethod
@@ -51,6 +50,15 @@ public class BaseTest {
 	        
 	        // Add necessary arguments to handle the issue in CI environment
 	        options.addArguments("--disable-dev-shm-usage", "--remote-allow-origins=*");
+	        options.addArguments("--headless");
+	        options.addArguments("--disable-gpu");
+	        options.addArguments("--no-sandbox");
+	        
+//	        EdgeOptions options = new EdgeOptions();
+//	        options.addArguments("--headless");
+//	        options.addArguments("--disable-gpu");
+//	        WebDriver driver = new EdgeDriver(options);
+
 
 	        // Set up EdgeDriver
 	        System.setProperty("webdriver.edge.driver", "C:\\Users\\MonalishaRabha\\eclipse\\edgedriver_win64\\msedgedriver.exe");

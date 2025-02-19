@@ -6,7 +6,6 @@ pages\SolutionTab.class
 test\BlogTest.class
 utils\CompanyLocator.class
 pages\CompanyPage.class
-helper\RetryAnalyzer.class
 pages\BlogPage.class
 pages\CaseStudiesTab.class
 pages\IndustryPage.class

@@ -1,273 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T16:00:43 IST" name="Suite" finished-at="2025-02-14T16:06:36 IST" duration-ms="353160">
+  <suite started-at="2025-02-18T17:47:27 IST" name="Suite" finished-at="2025-02-18T17:48:23 IST" duration-ms="56363">
     <groups>
     </groups>
-    <test started-at="2025-02-14T16:00:43 IST" name="Test" finished-at="2025-02-14T16:06:36 IST" duration-ms="353160">
+    <test started-at="2025-02-18T17:47:27 IST" name="Test" finished-at="2025-02-18T17:48:23 IST" duration-ms="56363">
       <class name="test.BlogTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:00:43 IST" name="setup" finished-at="2025-02-14T16:01:18 IST" duration-ms="35640" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:47:27 IST" name="setup" finished-at="2025-02-18T17:47:48 IST" duration-ms="21189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC01_Blog_Tab()[pri:1, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:18 IST" name="TC01_Blog_Tab" finished-at="2025-02-14T16:01:18 IST" duration-ms="83" status="PASS">
+        <test-method signature="TC01_TC02_Blog_Tab()[pri:1, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:47:48 IST" name="TC01_TC02_Blog_Tab" finished-at="2025-02-18T17:48:00 IST" duration-ms="12562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:18 IST" name="afterMethod" finished-at="2025-02-14T16:01:22 IST" duration-ms="4044" status="PASS">
+        </test-method> <!-- TC01_TC02_Blog_Tab -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:00 IST" name="afterMethod" finished-at="2025-02-18T17:48:05 IST" duration-ms="4389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:22 IST" name="setup" finished-at="2025-02-14T16:01:28 IST" duration-ms="5497" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:05 IST" name="setup" finished-at="2025-02-18T17:48:10 IST" duration-ms="5601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC02_Blog_Tab()[pri:2, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:28 IST" name="TC02_Blog_Tab" finished-at="2025-02-14T16:01:32 IST" duration-ms="4452" status="PASS">
+        <test-method signature="test1()[pri:2, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:10 IST" name="test1" finished-at="2025-02-18T17:48:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC02_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:32 IST" name="afterMethod" finished-at="2025-02-14T16:01:36 IST" duration-ms="3916" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:10 IST" name="afterMethod" finished-at="2025-02-18T17:48:15 IST" duration-ms="4176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:36 IST" name="setup" finished-at="2025-02-14T16:01:42 IST" duration-ms="5535" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:15 IST" name="setup" finished-at="2025-02-18T17:48:20 IST" duration-ms="5068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC03_Blog_Tab()[pri:3, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:42 IST" name="TC03_Blog_Tab" finished-at="2025-02-14T16:01:45 IST" duration-ms="2767" status="PASS">
+        <test-method signature="Test2()[pri:3, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:20 IST" name="Test2" finished-at="2025-02-18T17:48:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC03_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:45 IST" name="afterMethod" finished-at="2025-02-14T16:01:49 IST" duration-ms="4119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:49 IST" name="setup" finished-at="2025-02-14T16:01:54 IST" duration-ms="5654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC04_Blog_Tab()[pri:4, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:54 IST" name="TC04_Blog_Tab" finished-at="2025-02-14T16:01:57 IST" duration-ms="2704" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:01:57 IST" name="afterMethod" finished-at="2025-02-14T16:02:01 IST" duration-ms="4037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:01 IST" name="setup" finished-at="2025-02-14T16:02:07 IST" duration-ms="5607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC05_Blog_Tab()[pri:5, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:07 IST" name="TC05_Blog_Tab" finished-at="2025-02-14T16:02:15 IST" duration-ms="7823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC05_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:15 IST" name="afterMethod" finished-at="2025-02-14T16:02:19 IST" duration-ms="4147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:19 IST" name="setup" finished-at="2025-02-14T16:02:24 IST" duration-ms="5745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC06_Blog_Tab()[pri:6, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:24 IST" name="TC06_Blog_Tab" finished-at="2025-02-14T16:02:31 IST" duration-ms="6643" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC06_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:31 IST" name="afterMethod" finished-at="2025-02-14T16:02:35 IST" duration-ms="4104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:35 IST" name="setup" finished-at="2025-02-14T16:02:41 IST" duration-ms="5624" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC07_Blog_Tab()[pri:7, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:41 IST" name="TC07_Blog_Tab" finished-at="2025-02-14T16:02:44 IST" duration-ms="3461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC07_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:44 IST" name="afterMethod" finished-at="2025-02-14T16:02:49 IST" duration-ms="4200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:49 IST" name="setup" finished-at="2025-02-14T16:02:54 IST" duration-ms="5779" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC08_Blog_Tab()[pri:8, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:02:54 IST" name="TC08_Blog_Tab" finished-at="2025-02-14T16:03:01 IST" duration-ms="6941" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC08_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:01 IST" name="afterMethod" finished-at="2025-02-14T16:03:05 IST" duration-ms="3969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:05 IST" name="setup" finished-at="2025-02-14T16:03:11 IST" duration-ms="5428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC09_Blog_Tab()[pri:9, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:11 IST" name="TC09_Blog_Tab" finished-at="2025-02-14T16:03:14 IST" duration-ms="3276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC09_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:14 IST" name="afterMethod" finished-at="2025-02-14T16:03:18 IST" duration-ms="4067" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:18 IST" name="setup" finished-at="2025-02-14T16:03:24 IST" duration-ms="5589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC010_Blog_Tab()[pri:10, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:24 IST" name="TC010_Blog_Tab" finished-at="2025-02-14T16:03:30 IST" duration-ms="6883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC010_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:30 IST" name="afterMethod" finished-at="2025-02-14T16:03:34 IST" duration-ms="4033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:34 IST" name="setup" finished-at="2025-02-14T16:03:40 IST" duration-ms="5719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC11_Blog_Tab()[pri:11, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:40 IST" name="TC11_Blog_Tab" finished-at="2025-02-14T16:03:43 IST" duration-ms="3235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC11_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:43 IST" name="afterMethod" finished-at="2025-02-14T16:03:47 IST" duration-ms="3826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:47 IST" name="setup" finished-at="2025-02-14T16:03:53 IST" duration-ms="5833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC12_Blog_Tab()[pri:12, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:03:53 IST" name="TC12_Blog_Tab" finished-at="2025-02-14T16:04:00 IST" duration-ms="7145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC12_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:00 IST" name="afterMethod" finished-at="2025-02-14T16:04:06 IST" duration-ms="5486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:06 IST" name="setup" finished-at="2025-02-14T16:04:11 IST" duration-ms="5657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC13_Blog_Tab()[pri:13, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:11 IST" name="TC13_Blog_Tab" finished-at="2025-02-14T16:04:15 IST" duration-ms="3264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC13_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:15 IST" name="afterMethod" finished-at="2025-02-14T16:04:19 IST" duration-ms="3939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:19 IST" name="setup" finished-at="2025-02-14T16:04:24 IST" duration-ms="5680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC14_Blog_Tab()[pri:14, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:24 IST" name="TC14_Blog_Tab" finished-at="2025-02-14T16:04:32 IST" duration-ms="7252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC14_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:32 IST" name="afterMethod" finished-at="2025-02-14T16:04:36 IST" duration-ms="4032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:36 IST" name="setup" finished-at="2025-02-14T16:04:41 IST" duration-ms="5455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC15_Blog_Tab()[pri:15, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:41 IST" name="TC15_Blog_Tab" finished-at="2025-02-14T16:04:45 IST" duration-ms="3510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC15_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:45 IST" name="afterMethod" finished-at="2025-02-14T16:04:49 IST" duration-ms="4120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:49 IST" name="setup" finished-at="2025-02-14T16:04:54 IST" duration-ms="5651" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC16_Blog_Tab()[pri:16, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:04:54 IST" name="TC16_Blog_Tab" finished-at="2025-02-14T16:05:02 IST" duration-ms="7693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC16_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:02 IST" name="afterMethod" finished-at="2025-02-14T16:05:06 IST" duration-ms="3952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:06 IST" name="setup" finished-at="2025-02-14T16:05:12 IST" duration-ms="5742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC17_Blog_Tab()[pri:17, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:12 IST" name="TC17_Blog_Tab" finished-at="2025-02-14T16:05:14 IST" duration-ms="2600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC17_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:14 IST" name="afterMethod" finished-at="2025-02-14T16:05:18 IST" duration-ms="3981" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:18 IST" name="setup" finished-at="2025-02-14T16:05:24 IST" duration-ms="5636" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC18_Blog_Tab()[pri:18, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:24 IST" name="TC18_Blog_Tab" finished-at="2025-02-14T16:05:31 IST" duration-ms="7183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC18_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:31 IST" name="afterMethod" finished-at="2025-02-14T16:05:35 IST" duration-ms="3893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:35 IST" name="setup" finished-at="2025-02-14T16:05:41 IST" duration-ms="5709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC19_Blog_Tab()[pri:19, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:41 IST" name="TC19_Blog_Tab" finished-at="2025-02-14T16:05:44 IST" duration-ms="3453" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC19_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:44 IST" name="afterMethod" finished-at="2025-02-14T16:05:48 IST" duration-ms="3836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:48 IST" name="setup" finished-at="2025-02-14T16:05:54 IST" duration-ms="5770" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC20_Blog_Tab()[pri:20, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:05:54 IST" name="TC20_Blog_Tab" finished-at="2025-02-14T16:06:01 IST" duration-ms="7599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC20_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:01 IST" name="afterMethod" finished-at="2025-02-14T16:06:05 IST" duration-ms="3919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:05 IST" name="setup" finished-at="2025-02-14T16:06:11 IST" duration-ms="5638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC21_Blog_Tab()[pri:21, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:11 IST" name="TC21_Blog_Tab" finished-at="2025-02-14T16:06:18 IST" duration-ms="6666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC21_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:18 IST" name="afterMethod" finished-at="2025-02-14T16:06:21 IST" duration-ms="3880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:21 IST" name="setup" finished-at="2025-02-14T16:06:28 IST" duration-ms="6359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC22_Blog_Tab()[pri:22, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:28 IST" name="TC22_Blog_Tab" finished-at="2025-02-14T16:06:32 IST" duration-ms="3998" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC22_Blog_Tab -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@368247b9]" started-at="2025-02-14T16:06:32 IST" name="afterMethod" finished-at="2025-02-14T16:06:36 IST" duration-ms="3938" status="PASS">
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BlogTest@1a6d8329]" started-at="2025-02-18T17:48:20 IST" name="afterMethod" finished-at="2025-02-18T17:48:23 IST" duration-ms="3301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
