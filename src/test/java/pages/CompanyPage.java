@@ -34,100 +34,100 @@ public class CompanyPage {
 	}
 
 	public void clickAboutUs() {
-		this.interaction.clickElement(companylocators.AboutUsTabBtn);
+		this.interaction.click(companylocators.AboutUsTabBtn);
 	}
 
 	public void clickWhyUs() {
-		this.interaction.clickElement(companylocators.WhyUsTabBtn);
+		this.interaction.click(companylocators.WhyUsTabBtn);
 	}
 
 	public void clickLearnMore() {
-		this.interaction.clickElement(companylocators.LearnMoreBtn);
+		this.interaction.click(companylocators.LearnMoreBtn);
 	}
 
 	public void meetTeamButton() {
-		this.interaction.clickElement(companylocators.MeetMyTeamBtn);
+		this.interaction.click(companylocators.MeetMyTeamBtn);
 	}
 
 	public void clickGetInTouch() {
-		this.interaction.clickElement(companylocators.GetInTouchBtn);
+		this.interaction.click(companylocators.GetInTouchBtn);
 	}
 
 	public void ExploreOurServices() {
-		this.interaction.clickElement(companylocators.ExploreOurServiceBtn);
+		this.interaction.click(companylocators.ExploreOurServiceBtn);
 	}
 
 	public void ExplourOurTeam() {
-		this.interaction.clickElement(companylocators.ExploreOurTeamBtn);
+		this.interaction.click(companylocators.ExploreOurTeamBtn);
 	}
 
 	public void ExploreOurPartnerAndCertiBtn() {
-		this.interaction.clickElement(companylocators.ExploreOurPartnerAndCertiBtn);
+		this.interaction.click(companylocators.ExploreOurPartnerAndCertiBtn);
 	}
 
 	public void clickTeambtn() {
-		this.interaction.clickElement(companylocators.TeamTabBtn);
+		this.interaction.click(companylocators.TeamTabBtn);
 	}
 
 	public void clickWeAreHiring() {
-		this.interaction.clickElement(companylocators.WeAreHiringBtn);
+		this.interaction.click(companylocators.WeAreHiringBtn);
 	}
 
 	public void GetInTouchBtn() {
-		this.interaction.clickElement(companylocators.GetInTouchBtn);
+		this.interaction.click(companylocators.GetInTouchBtn);
 	}
 
 	public void ViewMoreBtn() {
-		this.interaction.clickElement(companylocators.ViewMoreBtn);
+		this.interaction.click(companylocators.ViewMoreBtn);
 	}
 
 	public void LinkedInLogo() {
-		this.interaction.clickElement(companylocators.LinkedInLogo);
+		this.interaction.click(companylocators.LinkedInLogo);
 	}
 
 	public void ImageofMember() {
-		this.interaction.clickElement(companylocators.ImageofMember);
+		this.interaction.click(companylocators.ImageofMember);
 	}
 
 	public void TwitterLogo() {
-		this.interaction.clickElement(companylocators.TwitterLogo);
+		this.interaction.click(companylocators.TwitterLogo);
 	}
 
 	public void BackToTeamMembersBtn() {
-		this.interaction.clickElement(companylocators.BackToTeamMembersBtn);
+		this.interaction.click(companylocators.BackToTeamMembersBtn);
 	}
 
 	public void CareerTabBtn() {
-		this.interaction.clickElement(companylocators.CareerTabBtn);
+		this.interaction.click(companylocators.CareerTabBtn);
 	}
 
 	public void ExploreOpenPositionsBtn() {
-		this.interaction.clickElement(companylocators.ExploreOpenPositionsBtn);
+		this.interaction.click(companylocators.ExploreOpenPositionsBtn);
 	}
 
 	public void LearnAboutCompanyBtn() {
-		this.interaction.clickElement(companylocators.LearnAboutCompanyBtn);
+		this.interaction.click(companylocators.LearnAboutCompanyBtn);
 	}
 
 	public void PartAndCertTabBtn() {
-		this.interaction.clickElement(companylocators.PartAndCertTabBtn);
+		this.interaction.click(companylocators.PartAndCertTabBtn);
 	}
 
 	public void ReviewsAndRewardsTabBtn() {
-		this.interaction.clickElement(companylocators.ReviewsAndRewardsTabBtn);
+		this.interaction.click(companylocators.ReviewsAndRewardsTabBtn);
 	}
 
 	public void LeftVideoButton() {
-		this.interaction.clickElement(companylocators.LeftVideoButton);
+		this.interaction.click(companylocators.LeftVideoButton);
 	}
 
 	public void VideoCloseButton() {
-		this.interaction.clickElement(companylocators.VideoCloseButton);
+		this.interaction.click(companylocators.VideoCloseButton);
 	}
 
 	public void YouTubeBtn() {
 		switchToiframe();
-		this.interaction.clickElement(companylocators.YouTubeBtn);
+		this.interaction.click(companylocators.YouTubeBtn);
 	}
 
 	public void switchToiframe() {
