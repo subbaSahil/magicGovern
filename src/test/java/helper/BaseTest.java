@@ -29,56 +29,64 @@ public class BaseTest {
 		}
 	}
 
-//	@BeforeMethod
-//	public void setup() {
-//		
-//		loadProperties(); // Load properties before setting up the driver
-////		this.driver = new ChromeDriver();
+	@BeforeMethod
+	public void setup() {
+		
+		loadProperties(); // Load properties before setting up the driver
+		this.driver = new ChromeDriver();
 //		driver = new EdgeDriver();
-//		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//		this.driver.get(properties.getProperty("URL"));
-//		this.driver.manage().window().maximize();
-//		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));	
-//	}
+		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		this.driver.get(properties.getProperty("URL"));
+		this.driver.manage().window().maximize();
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));	
+	}
 	
-	 @BeforeMethod
-	    public void setup() {
-	        loadProperties(); // Load properties before setting up the driver
-	        
-	        
-	        EdgeOptions options = new EdgeOptions();
-	        
-	        // Add necessary arguments to handle the issue in CI environment
-	        options.addArguments("--disable-dev-shm-usage", "--remote-allow-origins=*");
-	        options.addArguments("--headless");
-	        options.addArguments("--disable-gpu");
-	        options.addArguments("--no-sandbox");
-	        
+//	 @BeforeMethod
+//	    public void setup() {
+//	        loadProperties(); // Load properties before setting up the driver
+//	        
+//	        
 //	        EdgeOptions options = new EdgeOptions();
+//	        
+//	        // Add necessary arguments to handle the issue in CI environment
+//	        options.addArguments("--disable-dev-shm-usage", "--remote-allow-origins=*");
 //	        options.addArguments("--headless");
 //	        options.addArguments("--disable-gpu");
+//	        options.addArguments("--no-sandbox");
+//	        
+//	        options.addArguments(
+//	            "--headless",
+//	            "--disable-gpu",
+//	            "--remote-debugging-port=9222",
+//	            "--user-data-dir=C:\\temp\\edge-profile",
+//	            "--remote-allow-origins=*"
+//	        );
+//	        
+////	        EdgeOptions options = new EdgeOptions();
+////	        options.addArguments("--headless");
+////	        options.addArguments("--disable-gpu");
+////	        WebDriver driver = new EdgeDriver(options);
+//
+//
+//	        // Set up EdgeDriver
+//	        System.setProperty("webdriver.edge.driver", "C:\\Users\\MonalishaRabha\\eclipse\\edgedriver_win64\\msedgedriver.exe");
 //	        WebDriver driver = new EdgeDriver(options);
-
-
-	        // Set up EdgeDriver
-	        System.setProperty("webdriver.edge.driver", "C:\\Users\\MonalishaRabha\\eclipse\\edgedriver_win64\\msedgedriver.exe");
-	        driver = new EdgeDriver(options);
-
-	        // Configure browser
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        driver.manage().window().maximize();
-	        
-	        // Navigate to the URL from properties file
-	        String url = properties.getProperty("URL");
-	        if (url != null && !url.isEmpty()) {
-	            driver.get(url);
-	        } else {
-	            System.err.println("URL not found in config.properties");
-	        }
-
-	        // Set up explicit wait
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-
-	        System.out.println("Edge Browser launched successfully.");
-	    }
+//
+//	        // Configure browser
+//	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//	        driver.manage().window().maximize();
+//	        
+//	        // Navigate to the URL from properties file
+//	        String url = properties.getProperty("URL");
+//	        if (url != null && !url.isEmpty()) {
+//	            driver.get(url);
+//	        } else {
+//	            System.err.println("URL not found in config.properties");
+//	        }
+//
+//	        // Set up explicit wait
+//	        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+//
+//	        System.out.println("Edge Browser launched successfully.");
+//	    }
 }
