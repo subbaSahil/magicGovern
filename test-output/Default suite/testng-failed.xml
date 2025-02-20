@@ -5,11 +5,9 @@
     <classes>
       <class name="test.BlogTest">
         <methods>
-          <include name="Test2"/>
           <include name="setup"/>
           <include name="TC01_TC02_Blog_Tab"/>
           <include name="afterMethod"/>
-          <include name="test1"/>
         </methods>
       </class> <!-- test.BlogTest -->
     </classes>

@@ -5,14 +5,14 @@ import org.openqa.selenium.By;
 public class CompanyLocator {
 
 	 // Locators
-    public By CompanyBtn = By.xpath("/html//div[@class='elementor elementor-171 elementor-location-header']/section[1]/div/div[2]/div/div/div/nav[1]/ul[@class='elementor-nav-menu']/li[3]");
-    public By AboutUsTabBtn = By.xpath("/html//div[@role='document']//div[@class='elementor elementor-1607 elementor-location-popup']/section/div/div[2]/div/div/div/nav[1]/ul[@class='elementor-nav-menu sm-vertical']//a[@href='https://www.magicgovern.ai/about/']");
-    public By AboutPage = By.xpath("//div[@id='main']/article/div/section[1]/div/div/div");
-    public By LearnMoreBtn = By.xpath("/html//div[@id='main']/article/div/section[2]//div[@class='elementor-element elementor-element-23ed50d elementor-widget elementor-widget-theme-post-content']//div[@class='elementor elementor-85']/section[3]/div/div/div/div[3]//a[@href='https://www.magicgovern.ai/why-us/']");
-    public By WhyUsPage = By.xpath("//div[@id='main']/article/div/section[1]/div/div");
-    public By MeetMyTeamBtn = By.xpath("/html//div[@id='main']/article/div/section[2]//div[@class='elementor-element elementor-element-23ed50d elementor-widget elementor-widget-theme-post-content']//div[@class='elementor elementor-85']/section[6]/div[2]/div/div/div[4]//a[@href='https://www.magicgovern.ai/team/']");
-    public By TeamPage = By.xpath("//div[@id='main']/article/div/section[1]/div");
-    public By GetInTouchBtn = By.linkText("Get in touch");
+    public By CompanyBtn = By.xpath("//ul[@id='menu-1-4677853']//child::a[text()='Company']");
+    public By AboutUsTabBtn = By.xpath("//ul[@id='menu-1-029e206']//child::a[text()='About us']");
+//    public By AboutPage = By.xpath("//div[@id='main']/article/div/section[1]/div/div/div");
+    public By LearnMoreBtn = By.xpath("//span[text()='Learn more']");
+    public By WhyUsPage = By.xpath("//ul[@id='menu-1-029e206']//child::a[text()='Why us']");
+    public By MeetMyTeamBtn = By.xpath("//span[text()='Meet the team']");
+    public By TeamPage = By.xpath("//ul[@id='menu-1-029e206']//child::a[text()='Team']");
+    public By GetInTouchBtn = By.linkText("//span[text()='Get in touch']");
     public By ContactPage = By.xpath("//div[@id='main']/article/div/section[1]/div/div/div");
     public By WhyUsTabBtn = By.xpath("/html//div[@role='document']//div[@class='elementor elementor-1607 elementor-location-popup']/section/div/div[2]/div/div/div/nav[1]/ul[@class='elementor-nav-menu sm-vertical']//a[@href='https://www.magicgovern.ai/why-us/']");
     public By ExploreOurServiceBtn = By.xpath("/html//div[@id='main']/article/div/section[2]//div[@class='elementor-element elementor-element-23ed50d elementor-widget elementor-widget-theme-post-content']//div[@class='elementor elementor-2218']/section[7]/div/div[1]/div/div[3]//a[@href='https://www.magicgovern.ai/solutions/']");

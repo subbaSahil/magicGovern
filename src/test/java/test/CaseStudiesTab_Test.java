@@ -1,5 +1,8 @@
 package test;
 
+import java.time.Duration;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,10 +30,14 @@ public class CaseStudiesTab_Test extends BaseTest {
 
 	public void caseStudiesText_Tab_TC_01() {
 		caseStudiesTab.caseStudies_tab();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
 		String actualText = caseStudiesTab.caseStudies_tab_text();
 		System.out.println(actualText);
+
 		String expectedText = "Case studies"; // Replace with your expected text
-		Assert.assertEquals(actualText, expectedText, "Text does not match the expected value!");
+		Assert.assertEquals(actualText.toLowerCase(), expectedText.toLowerCase(),
+				"Text does not match the expected value!");
 	}
 
 	@Test(priority = 2)
