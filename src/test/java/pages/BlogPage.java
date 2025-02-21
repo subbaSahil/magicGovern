@@ -32,7 +32,7 @@ public class BlogPage {
 	}
 
 	public void clickFullstory() {
-		this.interaction.clickElement(bloglocators.ReadFullStoryText);
+		this.interaction.click(bloglocators.ReadFullStoryText);
 
 	}
 
@@ -45,7 +45,7 @@ public class BlogPage {
 	}
 
 	public void clickReadMore1st() {
-		this.interaction.clickElement(bloglocators.ReadMoreButton);
+		this.interaction.click(bloglocators.ReadMoreButton);
 	}
 
 	public String isTop5TipsCardAvailable() {
@@ -53,7 +53,7 @@ public class BlogPage {
 	}
 
 	public void clickReadMore2nd() {
-		this.interaction.clickElement(bloglocators.ReadMore2ndBtn);
+		this.interaction.click(bloglocators.ReadMore2ndBtn);
 	}
 
 	public String is3rdCardAvailable() {
@@ -61,7 +61,7 @@ public class BlogPage {
 	}
 
 	public void clickReadMore3rd() {
-		this.interaction.clickElement(bloglocators.ReadMore3rdBtn);
+		this.interaction.click(bloglocators.ReadMore3rdBtn);
 	}
 
 	public String is4thCardAvailable() {
@@ -69,7 +69,7 @@ public class BlogPage {
 	}
 
 	public void clickReadMore4th() {
-		this.interaction.clickElement(bloglocators.ReadMore4thBtn);
+		this.interaction.click(bloglocators.ReadMore4thBtn);
 	}
 
 	public String is5thCardAvailable() {
@@ -77,7 +77,7 @@ public class BlogPage {
 	}
 
 	public void clickReadMore5th() {
-		this.interaction.clickElement(bloglocators.ReadMore5thBtn);
+		this.interaction.click(bloglocators.ReadMore5thBtn);
 	}
 
 	public String is6thCardAvailable() {
@@ -85,7 +85,7 @@ public class BlogPage {
 	}
 
 	public void clickReadMore6th() {
-		this.interaction.clickElement(bloglocators.ReadMore6thBtn);
+		this.interaction.click(bloglocators.ReadMore6thBtn);
 	}
 
 	public String is7thCardAvailable() {
@@ -93,14 +93,14 @@ public class BlogPage {
 	}
 
 	public void clickReadMore7th() {
-		this.interaction.clickElement(bloglocators.ReadMore7thBtn);
+		this.interaction.click(bloglocators.ReadMore7thBtn);
 	}
 
 	public void clickStartUpPage() {
-		this.interaction.clickElement(bloglocators.StartUpPage);
+		this.interaction.click(bloglocators.StartUpPage);
 	}
 
 	public void clickLoadMorebtn() {
-		this.interaction.clickElement(bloglocators.LoadMorebtn);
+		this.interaction.click(bloglocators.LoadMorebtn);
 	}
 }

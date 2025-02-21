@@ -34,51 +34,51 @@ public class IndustryPage {
 	}
 
 	public void clickViewAll() {
-		this.interaction.clickElement(industrylocators.viewAll);
+		this.interaction.click(industrylocators.viewAll);
 	}
 
 	public void clickclientSupport() {
-		this.interaction.clickElement(industrylocators.clientSupport);
+		this.interaction.click(industrylocators.clientSupport);
 	}
 
 	public void clickPhoneNumber() {
-		this.interaction.clickElement(industrylocators.phoneNumber);
+		this.interaction.click(industrylocators.phoneNumber);
 	}
 
 	public void clickLearnMoreFinetech() {
-		this.interaction.clickElement(industrylocators.learnMoreFinetech);
+		this.interaction.click(industrylocators.learnMoreFinetech);
 	}
 
 	public void industryManufacturing() {
-		this.interaction.clickElement(industrylocators.industryManufacturing);
+		this.interaction.click(industrylocators.industryManufacturing);
 	}
 
 	public void TransportationLogistic() {
-		this.interaction.clickElement(industrylocators.TransportationLogistic);
+		this.interaction.click(industrylocators.TransportationLogistic);
 	}
 
 	public void HealthCare() {
-		this.interaction.clickElement(industrylocators.HealthCare);
+		this.interaction.click(industrylocators.HealthCare);
 	}
 
 	public void BankInsurance() {
-		this.interaction.clickElement(industrylocators.BankInsurance);
+		this.interaction.click(industrylocators.BankInsurance);
 	}
 
 	public void ConsultingProvider() {
-		this.interaction.clickElement(industrylocators.ConsultingProvider);
+		this.interaction.click(industrylocators.ConsultingProvider);
 	}
 
 	public void NonProfit() {
-		this.interaction.clickElement(industrylocators.NonProfit);
+		this.interaction.click(industrylocators.NonProfit);
 	}
 
 	public void Telemedicine() {
-		this.interaction.clickElement(industrylocators.Telemedicine);
+		this.interaction.click(industrylocators.Telemedicine);
 	}
 
 	public void DatingApp() {
-		this.interaction.clickElement(industrylocators.DatingApp);
+		this.interaction.click(industrylocators.DatingApp);
 	}
 
 }

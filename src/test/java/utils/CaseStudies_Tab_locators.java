@@ -13,5 +13,5 @@ public class CaseStudies_Tab_locators {
 	public static By OnlineplatformLeranMoreBtn = By.xpath("(//a[contains(text(),'Learn more')])[6]");
 	public static By DeliveringenterpriseLeranMoreBtn = By.xpath("(//a[contains(text(),'Learn more')])[7]");
 	public static By BringingpremiumLeranMoreBtn = By.xpath("(//a[contains(text(),'Learn more')])[8]");
-	public static By BuildingLeranMoreBtn = By.cssSelector("(//a[contains(text(),'Learn more')])[9]");
+	public static By BuildingLeranMoreBtn = By.xpath("(//a[contains(text(),'Learn more')])[9]");
 }
