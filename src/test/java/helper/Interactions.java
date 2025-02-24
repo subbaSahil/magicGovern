@@ -167,7 +167,10 @@ public class Interactions {
     		    By.xpath("//div[@role='option' and text()='" + desiredYear + "']")));
     		yearElement.click();
     }
-    
+    public void switchToIframe(By locator) {
+		WebElement iframe = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+		driver.switchTo().frame(iframe);
+	}
     
     //enter multiple inputs on multiple  element of same type
     public void multipleInputs(By locator, String text) {
