@@ -22,13 +22,13 @@ public class BaseTest {
 
 	private void loadProperties() {
 		try (FileInputStream fileInput = new FileInputStream(
-				"C:\\Users\\MonalishaRabha\\eclipse-workspace\\MagicGovern\\config.properties")) {
+				"C:\\Users\\SahilSubba\\eclipse-workspace\\magicgovern\\config.properties")) {
 			properties.load(fileInput);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
-
+	
 	@BeforeMethod
 	public void setup() {
 		
