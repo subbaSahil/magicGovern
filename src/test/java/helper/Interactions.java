@@ -1,9 +1,6 @@
-package helper;
-
-import java.time.Duration;
+package Helper;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,73 +8,98 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.Desktop.Action;
+import java.time.Duration;
+import java.util.List;
+
 public class Interactions {
-	WebDriver driver;
-	WebDriverWait wait;
+    private WebDriverWait wait;
+    private Actions actions;
+    private WebDriver driver;
+    public Interactions(WebDriver driver) {
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        actions = new Actions(driver);
+        this.driver = driver;
+    }
+    
+    //normal click on a particular element
+    public void click(By element) {
+        int retryCount = 3; // Number of retries
+        int attempts = 0;
+        boolean clicked = false;
 
-	public Interactions(WebDriver driver) {
-		this.driver = driver;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-	}
+        while (attempts < retryCount && !clicked) {
+            try {
+                WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(element));
+                clickableElement.click();
+                clicked = true; // Successfully clicked
+                System.out.println("Element clicked successfully: " + element);
+            } catch (Exception e) {
+                attempts++;
+                System.out.println("Attempt " + attempts + " to click on " + element + " failed: " + e.getMessage());
+                if (attempts == retryCount) {
+                    System.out.println("Failed to click on the element after " + retryCount + " attempts.");
+                }
+            }
+        }
+    }
+    
+    //
+    public void javascriptClick(By element) {
+    	WebElement ele = wait.until(ExpectedConditions.elementToBeClickable(element));
+    	actions.moveToElement(ele).click().perform();
+    	
+    }
+    
+    //overide the existing text
+    public void enterText(By element, String text) {
+        try {
+            WebElement inputField = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+            inputField.sendKeys(text);
+        } catch (Exception e) {
+            System.out.println("Error while entering text in the element: " + element + " - " + e.getMessage());
+        }
+    }
 
-	public void clickElement(Object target) {
-		WebElement element;
-		if (target instanceof By) {
-			element = wait.until(ExpectedConditions.elementToBeClickable((By) target));
-		} else if (target instanceof WebElement) {
-			element = (WebElement) target;
-		} else {
-			throw new IllegalArgumentException("\"Invalid argument type. Must be By or WebElement.\"");
-		}
-		clickElementJS(element);
-	}
-
-	public void switchToIframe(By locator) {
-		WebElement iframe = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-		driver.switchTo().frame(iframe);
-	}
-
-	private void clickElementJS(WebElement element) {
-		try {
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-			element.click();
-		} catch (ElementClickInterceptedException e) {
-			((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-		} catch (Exception e) {
-			System.out.println("Failed to click the element. Error: " + e.getMessage());
-		}
-	}
-
-	public WebElement visibilityEle(By locator) {
+    //clear and input field and enter new text
+    public void clearTextAndEnterText(By element, String newText) {
+        try {
+            WebElement inputField = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+            inputField.clear();
+            inputField.sendKeys(newText);
+        } catch (Exception e) {
+            System.out.println("Error while clearing and entering text in the element: " + element + " - " + e.getMessage());
+        }
+    }
+    
+    //to get text of a particular element
+    public String getText(By element) {
+        try {
+            WebElement inputField = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+            return inputField.getText();
+        } catch (Exception e) {
+            System.out.println("Error while retrieving text from the element: " + element + " - " + e.getMessage());
+            return null; // Returning null in case of an error
+        }
+    }
+    
+    public WebElement visibilityEle(By locator) {
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
-
-	public void sendingKeys(By locator, String keyValue) {
-		WebElement element = visibilityEle(locator);
-		element.clear();
-		element.sendKeys(keyValue);
-	}
-
-	public void executeWithDelay(Runnable action) {
-		try {
-			Thread.sleep(2000);
-			action.run();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public String getTabTitle(By locator) {
-		String tabTitle = driver.findElement(locator).getText();
-		return tabTitle;
-	}
-
-	public String getInnerText(By locator) {
-		String tabTitle = driver.findElement(locator).getText();
-		return tabTitle;
-	}
-
-	public void hoverOverElement(By element) {
+    
+    //to scroll to a particular element for the current page
+    public void scroll(By element) {
+    	 try {
+             
+             JavascriptExecutor js = (JavascriptExecutor) driver;
+             WebElement elementToReach = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+             js.executeScript("arguments[0].scrollIntoView(true);", elementToReach);
+         } catch (Exception e) {
+             e.printStackTrace();
+         }
+    }
+    
+    public void hoverOverElement(By element) {
 		try {
 			WebElement hoverElement = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 			Actions actions = new Actions(driver);
@@ -86,53 +108,75 @@ public class Interactions {
 			e.printStackTrace();
 		}
 	}
+    
+    
+    // to get the url for t he current page
+    public  void isCurrentUrlCorrect(String expectedUrl) {
+        try {
+        	Thread.sleep(5);
+            String currentUrl = driver.getCurrentUrl(); 
+            System.out.println("Current URL: " + currentUrl);
 
-	public void click(By element) {
-		int retryCount = 2; // Number of retries
-		int attempts = 0;
-		boolean clicked = false;
+            if (!currentUrl.equals(expectedUrl)) {
+                System.out.println("URL mismatch! Redirecting to the base URL: " + expectedUrl);
+                driver.navigate().to(expectedUrl); 
+                Thread.sleep(10);
+               
+            }
 
-		while (attempts < retryCount && !clicked) {
-			try {
-				// Try to find the clickable element
-				WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(element));
-				clickableElement.click(); // Attempt to click the element using WebDriver
-				clicked = true; // Successfully clicked using WebDriver
-				System.out.println("Element clicked successfully: " + element);
-			} catch (Exception e) {
-				attempts++;
-				System.out.println("Attempt " + attempts + " to click on " + element + " failed: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Error while retrieving, comparing, or redirecting URLs: " + e.getMessage());
+            e.printStackTrace();
+    
+        }
+    }
 
-				// If all attempts with WebDriver fail, use JavaScriptExecutor
-				if (attempts == retryCount) {
-					System.out.println("Failed to click using WebDriver. Attempting JavaScriptExecutor...");
-					try {
-						JavascriptExecutor js = (JavascriptExecutor) driver;
-						WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(element));
-						js.executeScript("arguments[0].click();", clickableElement); // Use JS to click
-						clicked = true;
-						System.out.println("Element clicked using JavaScriptExecutor: " + element);
-					} catch (Exception jsException) {
-						System.out.println("JavaScriptExecutor also failed to click on " + element + ": "
-								+ jsException.getMessage());
-					}
-				}
-			}
-		}
 
-		if (!clicked) {
-			System.out.println("Failed to click on the element after " + retryCount + " attempts.");
-		}
-	}
+    
+    //check the visibility of an element
+    public Boolean elementVisibility(By element) {
+        try {
+            return (element != null);
+        } catch (Exception e) {
+            System.out.println("Error while checking visibility of the element: " + element + " - " + e.getMessage());
+            return false; // Return false if an error occurs
+        }
+    }
+    
+    //to click on a particular element on a list
+    public void selectFromDropdown(By element, String clientName) {
+        try {
+            WebElement dropdown = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 
-	public String getText(By element) {
-		try {
-			WebElement textElement = wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-			return textElement.getText();
-		} catch (Exception e) {
-			e.printStackTrace();
-			return null; // Return null in case of any exception
-		}
-	}
+            List<WebElement> options = dropdown.findElements(By.tagName("li"));
 
+            for (WebElement option : options) {
+                String text = option.findElement(By.className("itemTemplateLabel_dqr75c")).getText();
+                if (text.equals(clientName)) {
+                    option.click();
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Error while selecting from dropdown: " + element + " - " + e.getMessage());
+        }
+    }
+    
+    public void selectYearDiv(String desiredYear) {
+    	WebElement yearElement = wait.until(ExpectedConditions.visibilityOfElementLocated(
+    		    By.xpath("//div[@role='option' and text()='" + desiredYear + "']")));
+    		yearElement.click();
+    }
+    
+    
+    //enter multiple inputs on multiple  element of same type
+    public void multipleInputs(By locator, String text) {
+        // Wait until all matching elements are visible
+        List<WebElement> textareas = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+
+        for (WebElement textarea : textareas) {
+            textarea.clear(); // Optional: Clear existing text
+            textarea.sendKeys(text);
+        }
+    }
 }

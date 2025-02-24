@@ -20,15 +20,15 @@ public class BlogPage {
 	}
 
 	public String isBlogTabAvailble() {
-		return interaction.getInnerText(bloglocators.blogText);
+		return interaction.getText(bloglocators.blogText);
 	}
 
 	public String isTheTecnologiaBlogTestAvailable() {
-		return interaction.getInnerText(bloglocators.TheTechnologiaBlogText);
+		return interaction.getText(bloglocators.TheTechnologiaBlogText);
 	}
 
 	public String isReadFullStoryAvailable() {
-		return interaction.getInnerText(bloglocators.ReadFullStoryText);
+		return interaction.getText(bloglocators.ReadFullStoryText);
 	}
 
 	public void clickFullstory() {
@@ -37,11 +37,11 @@ public class BlogPage {
 	}
 
 	public String isCommentSectionAvailable() {
-		return interaction.getInnerText(bloglocators.CommentSection);
+		return interaction.getText(bloglocators.CommentSection);
 	}
 
 	public String isChinaDatabreaxhCardAvailable() {
-		return interaction.getInnerText(bloglocators.ChinaDatabreachCard);
+		return interaction.getText(bloglocators.ChinaDatabreachCard);
 	}
 
 	public void clickReadMore1st() {
@@ -49,7 +49,7 @@ public class BlogPage {
 	}
 
 	public String isTop5TipsCardAvailable() {
-		return interaction.getInnerText(bloglocators.Top5TipsCard);
+		return interaction.getText(bloglocators.Top5TipsCard);
 	}
 
 	public void clickReadMore2nd() {
@@ -57,7 +57,7 @@ public class BlogPage {
 	}
 
 	public String is3rdCardAvailable() {
-		return interaction.getInnerText(bloglocators.ThirdCard);
+		return interaction.getText(bloglocators.ThirdCard);
 	}
 
 	public void clickReadMore3rd() {
@@ -65,7 +65,7 @@ public class BlogPage {
 	}
 
 	public String is4thCardAvailable() {
-		return interaction.getInnerText(bloglocators.FourthCard);
+		return interaction.getText(bloglocators.FourthCard);
 	}
 
 	public void clickReadMore4th() {
@@ -73,7 +73,7 @@ public class BlogPage {
 	}
 
 	public String is5thCardAvailable() {
-		return interaction.getInnerText(bloglocators.FifthCard);
+		return interaction.getText(bloglocators.FifthCard);
 	}
 
 	public void clickReadMore5th() {
@@ -81,7 +81,7 @@ public class BlogPage {
 	}
 
 	public String is6thCardAvailable() {
-		return interaction.getInnerText(bloglocators.SixthCard);
+		return interaction.getText(bloglocators.SixthCard);
 	}
 
 	public void clickReadMore6th() {
@@ -89,7 +89,7 @@ public class BlogPage {
 	}
 
 	public String is7thCardAvailable() {
-		return interaction.getInnerText(bloglocators.SevenCard);
+		return interaction.getText(bloglocators.SevenCard);
 	}
 
 	public void clickReadMore7th() {
